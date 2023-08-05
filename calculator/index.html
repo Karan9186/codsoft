@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="index.css">
+
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <nav>
+        <h1>calculator web app</h1>
+    </nav>
+    <div id="main_container">
+        <div id="show_con">
+            <table align="center">
+                <tr>
+                    <td><p id="show_container"> </p></td>
+                </tr>
+            </table>
+
+        </div>
+
+        <table id="number_con" align="center">
+            <tr>
+                <td><button onclick="input_value('1')">1</button></td>
+                <td><button onclick="input_value('2')">2</button></td>
+                <td><button onclick="input_value('3')">3</button></td>
+                <td><button onclick="input_value('4')">4</button></td>
+            </tr>
+
+            <tr>
+                <td><button onclick="input_value('5')">5</button></td>
+                <td><button onclick="input_value('6')">6</button></td>
+                <td><button onclick="input_value('7')">7</button></td>
+                <td><button onclick="input_value('8')">8</button></td>
+            </tr>
+
+            <tr>
+                <td><button onclick="input_value('9')">9</button></td>
+                <td><button onclick="input_value('0')">0</button></td>
+                <td><button onclick="input_value('.')">.</button></td>
+                <td><button onclick="cal()">=</button></td>
+            </tr>
+
+            <tr>
+                <td><button onclick="input_value('+')">+</button></td>
+                <td><button onclick="input_value('-')">-</button></td>
+                <td><button onclick="input_value('/')">/</button></td>
+                <td><button onclick="input_value('%')">%</button></td>
+            </tr>
+        </table>
+
+        <table align="center">
+                <tr>
+                    <td><button onclick="clear1()" class="btn2">CLEAR</button></td>
+                </tr>
+
+        </table>
+    </div>
+</body>
+
+</html>
